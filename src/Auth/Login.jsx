@@ -6,11 +6,6 @@ const Login = () => {
   const navigate = useNavigate();
   const [username, setUsername] = useState('');
 
-  const handleLogin = () => {
-    // Perform login logic here
-    console.log('Login clicked');
-  };
-
   const handleSubmit = (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
